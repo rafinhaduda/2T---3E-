@@ -61,6 +61,21 @@ body {
 }
 @media screen and (min-width: 768x){
 
+ .ativo{
+    background: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+ }
+    .botoes{
+ display: flex;
+       }
+.botao:first-child{
+    border-radius: 40px 0 0 0;
+}
+ .botao: lest-child{
+    border-radius: 0 40px 0 0;
+ }
 };
+
+
     
 }
