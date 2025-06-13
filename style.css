@@ -36,6 +36,7 @@ body {
     color: var(--verde);
 }
 
+
 .botao {
     font-family: "Chakra Petch", sans-serif;
     background-color: var(--botao-inativo);
@@ -59,12 +60,13 @@ body {
 .botoes {
     display: block;
 }
-@media screen and (min-width: 768x){
-
  .ativo{
     background: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
  }
+
+@media screen and (min-width: 768x){
+
     .botoes{
  display: flex;
        }
@@ -74,8 +76,6 @@ body {
  .botao: lest-child{
     border-radius: 0 40px 0 0;
  }
-};
 
 
     
-}
